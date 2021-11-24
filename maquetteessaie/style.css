@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    background-color: dodgerblue;
+    height: 50px;
+    width: 100%;
+    color:blueviolet;
+    position: absolute;
+    }
+
+header{
+    background: url(note.jpg) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+   
+}
+
+a{
+    padding: 8px;
+    background-color: cornflowerblue;
+    margin-top: 50px;
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.texte{
+    color: floralwhite;
+    font-family:sans-serif;
+    font-size: 30px;
+
+
+
+}
